@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8b8bc3;
+    color: #000000;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #08070a;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+nav .nav-right {
+    float: right;
+}
+
+nav .nav-right li {
+    float: none;
+    display: inline-block;
+}
+
+.btn-login-nav {
+    background-color: rgb(147, 52, 241);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-login-nav:hover {
+    background-color: #37e56b;
+}
+
+/* About Section */
+.about-section {
+    padding: 60px;
+    background-color: #ffffff;
+    text-align: center;
+    border-top: 5px solid #4caf50;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h1 {
+    font-size: 3em;
+    color: #4caf50;
+    margin-bottom: 30px;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    line-height: 1.8em;
+    margin-bottom: 20px;
+    color: #555;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1em;
+}
+
+/* Center Logo and Home Section */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.center-logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.content {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-register {
+    background-color: #4caf50;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+.btn-register:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .nav-right {
+        float: none;
+    }
+
+    .about-section {
+        padding: 30px;
+    }
+
+    .about-section h1 {
+        font-size: 2em;
+    }
+
+    .about-section p {
+        font-size: 1em;
+    }
+}

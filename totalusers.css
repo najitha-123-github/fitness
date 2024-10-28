@@ -1,0 +1,113 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container for the entire dashboard */
+.dashboard-container {
+    width: 80%;
+    margin: 40px auto;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(19, 179, 237, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Header section styling */
+header {
+    background-color: #54c0e4;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+    margin: 0;
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #127eb5;
+}
+
+/* Main content section */
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* Summary card section */
+.summary-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(222, 15, 15, 0.1);
+    flex: 1;
+    margin: 0 10px;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.card p {
+    font-size: 2.5rem;
+    margin: 10px 0 0;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1d9ae3;
+    color: white;
+    border-radius: 0 0 10px 10px;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .summary-cards {
+        flex-direction: column;
+    }
+
+    .card {
+        margin: 10px 0;
+    }
+}
+.abc{
+    color: rgb(13, 13, 12);
+}

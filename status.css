@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.day-button {
+    padding: 50px 30px;
+    font-size: 16px;
+    color: white;
+    background-color: #a1acb7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.day-button:hover {
+    background-color: #0056b3;
+}
+
+.day-button:active {
+    background-color: #004085;
+}
